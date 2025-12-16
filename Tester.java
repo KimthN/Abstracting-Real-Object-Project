@@ -10,9 +10,9 @@ public class Tester
         Airplane airplane2 = new Airplane(airline2test);
         System.out.println(airplane2);
         
-        airplane1.halfway_there("DFW", 7);
+        System.out.println("There has been a " + airplane1.flight_delay(3) + " hour delay.";
         airplane1.detour();
-        airplane2.depart(8);
+        System.out.println(airplane2.gate_change(12);
         airplane2.crash();
     }
 }
