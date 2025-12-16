@@ -16,3 +16,6 @@ This project creates an airplane object. The goal of this project is to write a 
 # Author Info
 - Kim Nguyen
 - I learned how to construct main classes and secondary classes. I got used to the specific formatting of the accessor and mutator methods, alongwith the constructors.
+
+# Class Diagram
+https://drive.google.com/file/d/1A8wRWYlIhSaVIXdVCt5jMvo165WsEcRu/view?usp=drive_link 
