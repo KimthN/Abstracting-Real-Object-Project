@@ -137,22 +137,23 @@ public class Airplane {
     }
     //methods
     /**
-     * Announces and calculates halfway mark into flight
-     * @param String destinatino
-     * @param int duration
+     * Changes the duration of flight by adding the delay_time
+     * @param int delay_time
+     * @return duration
      * 
      */
-    public void halfway_there(String destination, int duration){
-        duration = duration / 2;
-        System.out.println("Dear valued customers, we are halfway to " + destination + "! The flight duration is now " + duration + "hours.";
+    public int flight_delay(int delay_time){
+        duration += delay_time;
+        return duration;
     }
     
     /**
-     * Prints departure method with initial gate
-     * @param int gate
+     * Announces that the initial gate has changed to changed_gate
+     * @param int changed_gate
+     * @return String
      */
-    public void depart(int gate){
-        System.out.println("We are ready to depart from gate " + gate);
+    public String gate_change(int changed_gate){
+        return "The flight for gate " + gate + " has changed to gate " + changed_gate + " .";
     }
     
     /**
